@@ -20,14 +20,14 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/bSetup"
+        android:id="@+id/bScharf"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="57dp"
         android:layout_marginEnd="148dp"
         android:layout_marginStart="148dp"
-        android:onClick="onSetup"
-        android:text="SETUP"
+        android:onClick="onScharf"
+        android:text="scharf"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -40,7 +40,7 @@
         android:layout_marginStart="66dp"
         android:layout_marginTop="132dp"
         android:textAlignment="center"
-        android:textColor="@android:color/background_light"
+        android:textColor="@android:color/background_dark"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
